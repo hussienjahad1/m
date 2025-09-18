@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
     const __filename = fileURLToPath(import.meta.url);
     const __dirname = path.dirname(__filename);
     return {
-      base: './', // Add this line to use relative paths
+      base: '/تربوي-تك-المدراء-ليس-للنشر/', // Set base path for GitHub Pages
       plugins: [react()],
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),

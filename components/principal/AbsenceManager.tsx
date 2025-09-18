@@ -4,8 +4,8 @@ import * as ReactDOM from 'react-dom/client';
 import type { User, SchoolSettings, ClassData, Student, AbsenceStatus } from '../../types';
 import { db } from '../../lib/firebase';
 import { Calendar, ListChecks, Printer, AlertTriangle, Loader2, PlayCircle, X } from 'lucide-react';
-// Fix: Corrected import casing to match the canonical filename.
-import MonthlyAbsenceReportPDF from './MonthlyAbsenceReportPDF';
+// Fix: Corrected import casing to match the actual filename.
+import MonthlyAbsenceReportPDF from './monthlyAbsenceReportPDF';
 import AbsenceWarningLetterPDF from './AbsenceWarningLetterPDF';
 
 declare const jspdf: any;
